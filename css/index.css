@@ -1,3 +1,42 @@
+body {
+    /* text-align: center; */
+}
+
 header {
+    /* width:90%; */
+    margin-left: 25%;
+    margin-right: 25%;
     display: grid;
+    grid-template-columns: 30% 66%;
+    background-color: blue;
+    padding: 18px;
+    border-radius: 18px;
+    text-align: center;
+}
+#name {
+    color: white;
+    font-size: 30px;
+}
+
+header img {
+    width: 100%;
+    box-shadow: 2px 2px black;
+}
+
+.bolded {
+    text-decoration: solid;
+    text-shadow: .8px .8px grey;
+    font-size: 22px;
+    text-align: center;
+}
+
+#list {
+    margin-left: 8%;
+}
+footer {
+    text-align: center;
+}
+
+hr {
+    width: 82%;
 }
