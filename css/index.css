@@ -1,42 +1,43 @@
-body {
-    /* text-align: center; */
+#content {
+  margin: 0 auto;
+  width: 50%;
 }
 
 header {
-    /* width:90%; */
-    margin-left: 25%;
-    margin-right: 25%;
-    display: grid;
-    grid-template-columns: 30% 66%;
-    background-color: blue;
-    padding: 18px;
-    border-radius: 18px;
-    text-align: center;
-}
-#name {
-    color: white;
-    font-size: 30px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: rgb(0, 0, 170);
+  padding: 18px;
+  border-radius: 18px;
+  text-align: center;
+  color: white;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 header img {
-    width: 100%;
-    box-shadow: 2px 2px black;
+  width: 100%;
+  box-shadow: 0px 0px 15px black;
 }
 
 .bolded {
-    text-decoration: solid;
-    text-shadow: .8px .8px grey;
-    font-size: 22px;
-    text-align: center;
+  text-shadow: 1px 1px 5px black;
+  text-align: center;
 }
 
-#list {
-    margin-left: 8%;
+main {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 footer {
-    text-align: center;
+  text-align: center;
+  background-color: rgb(0, 0, 170);
+  border-radius: 8px;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-hr {
-    width: 82%;
+#dateDiv {
+  color: orange;
 }
