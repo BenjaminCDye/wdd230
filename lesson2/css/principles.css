@@ -41,10 +41,11 @@ main section {
     section {
         border: 2px black ridge;
         background-color: lightgrey;
+        align-items: center;
     }
 
     section img {
-        width: 100%;
+        /* width: 100%; */
         margin-top: 5px;
     }
 
