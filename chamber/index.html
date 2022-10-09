@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A Base homepage for the 'Capture the Moment' Chamber site."
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Capture the Moment Chamber - Home</title>
+  </head>
+  <body>
+    <header>
+      <div id="flexBox">
+        <div id="logo">
+          <img
+            src="images/Capture_the_moment_LOGO_1_copy.png"
+            alt="Chmaber Logo"
+          />
+        </div>
+        <div id="nameBar">
+          <h1>Capture the Moment</h1>
+          <h2>Chamber of Commerce - Rexburg</h2>
+        </div>
+        <div id="iconGrid">
+          <div class="icon">
+            <a href="facebook.com"
+              ><img src="images/facebookIcon.png" alt="Facebook Icon"
+            /></a>
+          </div>
+          <div class="icon">
+            <a href="pinterest.com"
+              ><img src="images/pinterestIcon.png" alt="Pinterest Icon"
+            /></a>
+          </div>
+        </div>
+
+        <nav>
+          <button id="hamburgerIcon" onclick="openNav()">
+            <span>&equiv;</span> <span></span>
+          </button>
+          <!-- <ul>
+            <li><a href="#">Option 1</a></li>
+            <li><a href="#">Option 2</a></li>
+            <li><a href="#">Option 3</a></li>
+            <li><a href="#">Option 4</a></li>
+          </ul> -->
+          <!-- Haven't figured out how to work this yet -->
+        </nav>
+      </div>
+
+      <div id="date"></div>
+    </header>
+
+    <main>
+      <div id="mainContent">
+        <section class="box_border" id="hero">
+          <h3>Call to Action</h3>
+          <img src="images/chess-1483735.jpg" alt="Hero Image" />
+          <p>Some filler text here</p>
+        </section>
+        <div id="med_view">
+          <section class="box_border">
+            <h3>Event</h3>
+            <p>filler text</p>
+          </section>
+          <section class="box_border">
+            <h3>Weather</h3>
+            <p>Details</p>
+          </section>
+        </div>
+        <section class="box_border">
+          <h3>News release</h3>
+          <p>Details</p>
+        </section>
+        <section id="spotlight_container">
+          <div class="box_border">
+            <h3>Spotlight 1</h3>
+          </div>
+          <div class="box_border">
+            <h3>Spotlight 2</h3>
+          </div>
+          <div class="box_border" id="spot3">
+            <h3>Spotlight 3</h3>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="box_border">
+        <div id="organize">
+            <div>
+                <img
+            src="images/Capture_the_moment_LOGO_1_copy.png"
+            alt="Capture the moment Logo"
+          />
+          <h3>Capture the Moment Chamber</h3>
+          <p>0500 w 0600 n</p>
+          <p>middle of nowhere, Hawaii 39</p>
+            </div>
+            <div>
+                <p>infogram@email.com</p>
+                <p>(009) - 0500 - 6627</p>
+                <div id="location"><a href="https://goo.gl/maps/i4ifU3K2KdeEsbjk6">St Anthony, ID 83445</a></div>
+            </div> 
+        </div>
+        
+     
+      <hr/>
+      <div>&copy; <span></span> Benjamin C. Dye Rexburg, ID, USA</div>
+      <div id="dateDiv">Last Modified: <span id="lastUpdateDate"></span></div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

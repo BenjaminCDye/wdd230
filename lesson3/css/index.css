@@ -37,6 +37,8 @@ footer {
 
 header {
     background-color: white;
+    display: flex;
+    
 }
 
 body p {
