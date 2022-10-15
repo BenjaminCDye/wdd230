@@ -8,6 +8,10 @@
   margin-left: 5%;
 }
 
+#mainContent a:hover {
+  color: red;
+  background-color: grey;
+}
 
 #specialDeal {
   display: none;
@@ -121,7 +125,7 @@
 
 .box_border {
   background-color: lightgray;
-  /* border: 3px darkgray ridge; */
+  border: 3px darkgray ridge;
 }
 
 #spotlight_container {
