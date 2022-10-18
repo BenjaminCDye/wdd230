@@ -18,6 +18,13 @@
   font-size: 18pt;
 }
 
+#heroButton {
+  /* position: absolute;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  float: right; */
+}
+
 #spot3 {
   display: none;
 }
@@ -55,8 +62,8 @@
   margin-top: 2px;
   margin-left: 5px;
   font-size: 1.5em;
-  color: white;
-  text-shadow: 1px 1px black;
+  color: black;
+  text-shadow: 1px 1px white;
 }
 
 @media screen and (min-width: 650px) {
