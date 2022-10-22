@@ -16,7 +16,7 @@
       <div id="flexBox">
         <div id="logo">
           <img
-            src="images/Capture_the_moment_LOGO_1_copy.png"
+            src="images//Screenshot_20221022_123514.webp"
             alt="Chmaber Logo"
           />
         </div>
@@ -52,7 +52,10 @@
       </div>
 
       <div id="date"></div>
-      <span id="specialDeal">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</span>
+      <span id="specialDeal"
+        >🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00
+        p.m.</span
+      >
     </header>
 
     <main>
@@ -60,21 +63,33 @@
         <section class="box_border" id="hero">
           <div id="heroText">
             <h3>Welcome to Rexburg!</h3>
-            <button>Call to action</button></div>
+            <button>Call to action</button>
+          </div>
           
-          
-          
-          <img src="images//chess-1483735_309x211.jpeg" alt="Hero Image" />
+          <picture>
+            <!-- Small -->
+            <img src="images/wdd230-org400.png" alt="Temp Hero Image"/>
+            <!-- Medium -->
+            <source srcset="images/wdd230-org600.png" media="(min-width:550px) and (max-width:799px">
+            <!-- Large -->
+            <source srcset="images/wdd230-org800.png" media="(min-width:800px)">
+           
+          </picture>
         </section>
         <div id="med_view">
           <section class="box_border" id="eventSection">
             <h3>Annual Rock Worshipping Event</h3>
             <p>Give your gifts and bring them to the altar.</p>
             <p>More details <a href="#">here</a>.</p>
-            <h6>Sacrifices not provided.</h6>
+            <!-- <h6>Sacrifices not provided.</h6> -->
           </section>
           <section class="box_border" id="weatherSection">
             <h3>Weather</h3>
+
+            <span id="temperature">text</span>
+            <span id="windChill">text</span>
+            <span id="windSpeed">text</span>
+
             <p>800°C</p>
             <p>Clear Skies & Sunny - Slight Winds</p>
             <p>Wind Speed: 28.3kph</p>
@@ -83,21 +98,33 @@
         </div>
         <section class="box_border">
           <h3>News release</h3>
-          <p>No new today. Nothing exciting has yet occurred. Stay in your homes and pretend you saw, and heard nothing.</p>
+          <p>
+            Nothing new today. Nothing exciting has yet occurred. Stay in your homes
+            and pretend you saw, and heard nothing.
+          </p>
         </section>
         <section id="spotlight_container">
           <div class="box_border" id="spot1">
             <h3>Dognapped!</h3>
-            <p>Local child taken hostage by his dog after refusing to take the dog on a walk.</p>
+            <p>
+              Local child taken hostage by his dog after refusing to take the
+              dog on a walk.
+            </p>
             <p><a href="#">More here!</a></p>
           </div>
           <div class="box_border" id="spot2">
-            <h3>Local park discovered to have landmines buried in the soccer field.</h3>
+            <h3>
+              Local park discovered to have landmines buried in the soccer
+              field.
+            </h3>
             <p>No injuries as of yet.</p>
             <p><a href="#">Read on</a></p>
           </div>
           <div class="box_border" id="spot3">
-            <h3>Spiderman spotted jumping off a building, pretending to be a child.</h3>
+            <h3>
+              Spiderman spotted jumping off a building, pretending to be a
+              child.
+            </h3>
             <p>Peter Parker on the case.</p>
             <p><a href="#">Coming soon!</a></p>
           </div>
@@ -105,28 +132,49 @@
       </div>
     </main>
     <footer class="box_border">
-        <div id="organize">
-            <div>
-                <img
-            src="images/Capture_the_moment_LOGO_1_copy.png"
+      <div id="organize">
+        <div>
+          <img
+            src="images/Screenshot_20221022_123514.webp" style="width:200px ;"
             alt="Capture the moment Logo"
           />
           <h3>Capture the Moment Chamber</h3>
           <p>0500 w 0600 n</p>
           <p>middle of nowhere, Hawaii 39</p>
-            </div>
-            <div>
-                <p>infogram@email.com</p>
-                <p>(009) - 0500 - 6627</p>
-                <div id="location"><a href="https://goo.gl/maps/i4ifU3K2KdeEsbjk6">St Anthony, ID 83445</a></div>
-            </div> 
         </div>
-        
-     
-      <hr/>
+        <div>
+          <p>infogram@email.com</p>
+          <p>(009) - 0500 - 6627</p>
+          <div id="location">
+            <a href="https://goo.gl/maps/i4ifU3K2KdeEsbjk6"
+              >St Anthony, ID 83445</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <hr />
       <div>&copy; <span></span> Benjamin C. Dye Rexburg, ID, USA</div>
       <div id="dateDiv">Last Modified: <span id="lastUpdateDate"></span></div>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="js/script.js">
+      function setwindchill(temp,windspeed){
+
+            let windSpeedobj = document.querySelector("#windSpeed");
+            let tempobj = document.querySelector("#temperature");
+            let windChillobj = document.querySelector("#windChill");
+
+            let windchill = "N/A";
+
+             if (temp <= 50 && windSpeed > 3) {
+              let chill = Math.round((35.74 + (0.6215 * temp))-(35.75 * Math.pow(windspeed,0.16)) + (0.4275*temp*Math.pow(windspeed,0.16)));
+              windchillmsg = `$(chill)&deg; F`;
+             }
+
+            tempobj.textContent = temp;
+            windSpeedobj.textContent = windspeed;
+            windChillobj.innerHTML = windchillmsg;
+      }
+    </script>
   </body>
 </html>
