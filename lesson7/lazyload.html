@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lazyload</title>
+  </head>
+  <body>
+    <picture>
+      <img
+        src="images/placeholder.png"
+        alt="placeholder image"
+        data-src="images/golf.jpeg"
+        loading="lazy"
+      />
+    </picture>
+    <picture>
+      <img
+        src="images/placeholder.png"
+        alt="placeholder image"
+        data-src="images/golf.jpeg"
+        loading="lazy"
+      />
+    </picture>
+    <picture>
+      <img
+        src="images/placeholder.png"
+        alt="placeholder image"
+        data-src="images/golf.jpeg"
+        loading="lazy"
+      />
+    </picture>
+    <picture>
+      <img
+        src="images/placeholder.png"
+        alt="placeholder image"
+        data-src="images/golf.jpeg"
+        loading="lazy"
+      />
+    </picture>
+    <picture>
+      <img
+        src="images/placeholder.png"
+        alt="placeholder image"
+        data-src="images/golf.jpeg"
+        loading="lazy"
+      />
+    </picture>
+    <picture>
+      <img
+        src="images/placeholder.png"
+        alt="placeholder image"
+        data-src="images/golf.jpeg"
+        loading="lazy"
+      />
+    </picture>
+    <script>
+      let imagesToLoad = document.querySelectorAll("img[data-src]");
+
+      const loadImages = (image) => {
+        image.setAttribute("src", image.getAttribute("data-src"));
+        image.onload = () => {
+          image.removeAttribute("data-src");
+        };
+      };
+
+      if ("intersectionObserver" in window) {
+        const imgObserver = new IntersectionObserver((items, observer) => {
+          items.forEach((item) => {});
+        }, imgOptions);
+
+        imagesToLoad.forEach((img) => {
+          loadImages(img);
+        });
+      } else {
+      }
+    </script>
+  </body>
+</html>
