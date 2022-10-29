@@ -18,6 +18,10 @@
   font-size: 18pt;
 }
 
+.imghover:hover {
+  opacity: .5;
+}
+
 #heroButton {
   /* position: absolute;
   margin-bottom: 20px;
