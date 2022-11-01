@@ -1,0 +1,40 @@
+body {
+    font-family: Ubuntu, sans-serif;
+}
+thead {
+background-color: green ;
+}
+
+tbody tr:nth-child(even) {
+background-color: blue;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: red;
+}
+
+.colorSelected {
+    background-color: green;
+}
+
+.italic {
+    font-style: italic;
+}
+
+table {
+    border: 2px black;
+    border-collapse: collapse;
+    background-color: purple;
+}
+
+.color {
+    background-color: purple;
+}
+
+table, tr, td, th {
+    border: 1px solid;
+}
+
+.center {
+    text-align: center;
+}
