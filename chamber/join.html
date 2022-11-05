@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join the Rebellion</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/join.css" />
+  </head>
+  <body>
+    <header>
+      <div id="flexBox">
+        <div id="logo">
+          <img
+            src="images//Screenshot_20221022_123514.webp"
+            alt="Chmaber Logo"
+          />
+        </div>
+        <div id="nameBar">
+          <h1>Capture the Moment</h1>
+          <h2>Chamber of Commerce - Rexburg</h2>
+        </div>
+        <div id="iconGrid">
+          <div class="icon">
+            <a href="facebook.com"
+              ><img src="images/facebookIcon.png" alt="Facebook Icon"
+            /></a>
+          </div>
+          <div class="icon">
+            <a href="pinterest.com"
+              ><img src="images/pinterestIcon_307x307.png" alt="Pinterest Icon"
+            /></a>
+          </div>
+        </div>
+
+        <nav>
+          <button id="hamburgerIcon" onclick="openNav()">
+            <span>&equiv;</span> <span></span>
+          </button>
+          <a href="index.html">Home</a>
+          <a href="discover.html">Discover</a>
+          <a href="join.html">Join</a>
+          <!-- <ul>
+          <li><a href="#">Option 1</a></li>
+          <li><a href="#">Option 2</a></li>
+          <li><a href="#">Option 3</a></li>
+          <li><a href="#">Option 4</a></li>
+        </ul> -->
+          <!-- Haven't figured out how to work this yet -->
+        </nav>
+      </div>
+
+      <div id="date"></div>
+      <span id="specialDeal"
+        >🤝🏼 Come join us for the chamber meet and greet Wednesday at
+        7:00p.m.</span
+      >
+    </header>
+    <main>
+      <div class="margin_content">
+        <form action="thankyou.html" method="get">
+          <label class="myinput"
+            >First Name*<input type="text" name="Fname" required
+          /></label>
+          <label class="myinput"
+            >Last Name*<input type="text" name="Lname" required
+          /></label>
+          <label class="myinput"
+            >Title<input type="text" name="Title" pattern="[A-Za-z -]{7,}"
+          /></label>
+          <label class="myinput"
+            >Email*<input type="email" name="email" required placeholder="yourmail@email.com"
+          /></label>
+          <label class="myinput">Phone*<input type="tel" name="cellphone" required /></label>
+          <label class="myinput"
+            >Name of Business*<input type="text" name="bussinessname" required
+          /></label>
+          <h3>Membership Level</h3>
+          <label class="myradio"
+            ><input type="radio" name="level" value="nonprofit" />Nonprofit</label
+          >
+          <label class="myradio"
+            ><input type="radio" name="level" value="bronze" />Bronze</label
+          >
+          <label class="myradio"
+            ><input type="radio" name="level" value="silver" />Silver</label
+          >
+          <label class="myradio"
+            ><input type="radio" name="level" value="gold" />Gold</label
+          >
+          <label class="myinput"
+            >Business Description<textarea
+              name="description"
+              cols="40"
+              rows="10"
+            ></textarea>
+          </label>
+          <label
+            ><input id="currentdate" type="hidden" name="datetime" value="#"
+          /></label>
+          <input
+            class="mysubmit"
+            type="submit"
+            name="sendit"
+            value="Join The Club!"
+          />
+        </form>
+        <h3>Membership Level Benefits</h3>
+        <div>
+          <h3>NP Membership</h3>
+          <ul>
+            <li>
+              <p>For non profit organizations and there is no fee</p>
+            </li>
+          </ul>
+          <h3>Bronze Membership</h3>
+          <ul>
+            <li>
+              <p>15% discount on events</p>
+            </li>
+            <li>
+              <p>10% discount on advertising</p>
+            </li>
+            <li>
+              <p>Fee of $50/month</p>
+            </li>
+          </ul>
+          <h3>Silver Membership</h3>
+          <ul>
+            <li>
+              <p>25% discount on events</p>
+            </li>
+            <li>
+              <p>15% discount on advertising</p>
+            </li>
+            <li>
+              <p>Free participation in the trade fair</p>
+            </li>
+            <li>
+              <p>Fee of $100/month</p>
+            </li>
+          </ul>
+          <h3>Gold Membership</h3>
+          <ul>
+            <li>
+              <p>50% discount on events</p>
+            </li>
+            <li>
+              <p>50% discount on advertising</p>
+            </li>
+            <li>
+              <p>Free participation in the trade fair</p>
+            </li>
+            <li>
+              <p>5 free featured ads per year</p>
+            </li>
+            <li>
+              <p>1 free training per quarter</p>
+            </li>
+            <li>
+              <p>Fee of $250/month</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="js/join.js"></script>
+  </body>
+</html>
