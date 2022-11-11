@@ -1,0 +1,29 @@
+{
+    "businesses" : [
+        {
+            "imageURL" : "images/logo.png",
+            "street" : "Address Info",
+            "citystatezip" : "city info",
+            "phone" : "phone info",
+            "websiteURL" : " website info",
+            "bizname" : " name info"
+        },
+        {
+            "imageURL" : "images/logo.png",
+            "street" : "Address Info",
+            "citystatezip" : "city info",
+            "phone" : "phone info",
+            "websiteURL" : " website info",
+            "bizname" : " name info"
+        },
+        {
+            "imageURL" : "images/logo.png",
+            "street" : "Address Info",
+            "citystatezip" : "city info",
+            "phone" : "phone info",
+            "websiteURL" : " website info",
+            "bizname" : " name info"
+        }
+
+    ]
+}
