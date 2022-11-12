@@ -1,29 +1,100 @@
 {
-    "businesses" : [
-        {
-            "imageURL" : "images/logo.png",
-            "street" : "Address Info",
-            "citystatezip" : "city info",
-            "phone" : "phone info",
-            "websiteURL" : " website info",
-            "bizname" : " name info"
-        },
-        {
-            "imageURL" : "images/logo.png",
-            "street" : "Address Info",
-            "citystatezip" : "city info",
-            "phone" : "phone info",
-            "websiteURL" : " website info",
-            "bizname" : " name info"
-        },
-        {
-            "imageURL" : "images/logo.png",
-            "street" : "Address Info",
-            "citystatezip" : "city info",
-            "phone" : "phone info",
-            "websiteURL" : " website info",
-            "bizname" : " name info"
-        }
-
-    ]
+  "businesses": [
+    {
+      "imageURL": "https://madisonmemorial.org/wp-content/uploads/MadisonMemorialLogo.gif",
+      "street": "450 E Main St, ",
+      "citystatezip": "Rexburg, ID 83440",
+      "phone": "(208) 359-6900",
+      "websiteURL": "https://madisonmemorial.org/",
+      "bizname": "Madison Memorial Hospital"
+    },
+    {
+      "imageURL": "images/pizza-pie.png",
+      "street": "240 N 2nd E, ",
+      "citystatezip": "Rexburg, ID 83440",
+      "phone": "(208) 359-1123",
+      "websiteURL": "https://pizzapiecafe.co/",
+      "bizname": "Pizza Pie Cafe"
+    },
+    {
+      "imageURL": "https://www.rexburgrapids.com/wp-content/uploads/2022/04/Rexburg-Rapids.png",
+      "street": "50 W 2nd N,",
+      "citystatezip": "Rexburg, ID 83440",
+      "phone": "(208) 372-2490",
+      "websiteURL": "https://www.rexburgrapids.com/",
+      "bizname": "Rexburg Rapids"
+    },
+    {
+      "imageURL": "https://www.gravityfactory.net/wp-content/themes/jump/graphics/gravity-factory-logo.png",
+      "street": "165 Airport Rd,",
+      "citystatezip": "Rexburg, ID 83440",
+      "phone": "(208) 228-0790",
+      "websiteURL": "https://www.gravityfactory.net/",
+      "bizname": "Gravity Factory"
+    },
+    {
+      "imageURL": "images/fatcats.png",
+      "street": "475 N 2nd E St, ",
+      "citystatezip": "Rexburg, ID 83440",
+      "phone": "(208) 359-2600",
+      "websiteURL": "https://www.fatcatsfun.com/locations/rexburg/",
+      "bizname": "Fat Cats Rexburg"
+    },
+    {
+        "imageURL": "https://7xlwvg-6qzp3axpbxay.cloudmaestro.com/qepZNmdlM/media/logo/stores/1/170xNvXL_Logo_Blue.png.pagespeed.ic.Puztg-sP4V.webp",
+        "street": "530 N 2nd E Suite 2 Ste 109,",
+        "citystatezip": "Rexburg, ID 83440",
+        "phone": "(208) 356-3343",
+        "websiteURL": "https://www.calranch.com/stores/idaho/rexburg",
+        "bizname": "C-A-L Ranch Stores"
+      },
+      {
+        "imageURL": "https://static.wixstatic.com/media/f09e26_37ae3e02ec5b4f0badd1ca62e2fb3b49~mv2.jpg/v1/fill/w_388,h_156,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Rexburg-01_edited.jpg",
+        "street": "155 W Main St #7,",
+        "citystatezip": "Rexburg, ID 83440",
+        "phone": "(208) 303-7513",
+        "websiteURL": "https://www.rexburgre-escape.com/",
+        "bizname": "Rexburg Re-Escape"
+      },
+      {
+        "imageURL": "images/Little_Caesars.svg",
+        "street": "26 W 1st S, ",
+        "citystatezip": "Rexburg, ID 83440",
+        "phone": "(208) 359-0071",
+        "websiteURL": "https://littlecaesars.com/en-us/",
+        "bizname": "Little Caesars Pizza"
+      },
+      {
+        "imageURL": "images/broulims.png",
+        "street": "124 W Main St,",
+        "citystatezip": "Rexburg, ID 83440",
+        "phone": "(208) 356-4651",
+        "websiteURL": "https://www.broulims.com/",
+        "bizname": "Broulim's"
+      },
+      {
+        "imageURL": "images/di.png",
+        "street": "611 N 2nd E, ",
+        "citystatezip": "Rexburg, ID 83440",
+        "phone": "(208) 356-0066",
+        "websiteURL": "https://www.deseretindustries.org/?y_source=1_MjQzODY0Mi03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+        "bizname": "Deseret Industries Thrift Store & Donation Center"
+      },
+      {
+        "imageURL": "https://portersop.com/wp-content/themes/porters/img/mainLogo.png",
+        "street": "1050 N 2nd E,",
+        "citystatezip": "Rexburg, ID 83440",
+        "phone": "(208) 356-4616",
+        "websiteURL": "https://portersop.com/",
+        "bizname": "Porter's Office Products"
+      },
+      {
+        "imageURL": "https://dsfee43herbpw.cloudfront.net/uploads/d2987ee837e46daf3708c912.jpg",
+        "street": "557 Mariah Ave, ",
+        "citystatezip": "Rexburg, ID 83440",
+        "phone": "(208) 656-0800",
+        "websiteURL": "https://paulmitchell.edu/rexburg",
+        "bizname": "Paul Mitchell The School Rexburg"
+      }
+  ]
 }

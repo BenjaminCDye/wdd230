@@ -13,7 +13,7 @@ cardselector.addEventListener("click", ()=>{
 });
 
 listselector.addEventListener("click", ()=>{
-    listview.style.display='grid';
+    listview.style.display='block';
     cardview.style.display='none';
     listselector.style.opacity=1.0;
     cardselector.style.opacity=0.5;
@@ -26,7 +26,7 @@ function displayCards(card) {
  cardelt.innerHTML = `<img src="${card.imageURL}" />
  <p>${card.street} ${card.citystatezip}</p>
  <p>${card.phone}</p>
- <p><a href="${card.websiteURL}">${card.websiteURL}</a></p>`;
+ <p><a href="${card.websiteURL}">${card.bizname}</a></p>`;
  cardview.appendChild(cardelt);
 }
 
@@ -34,10 +34,20 @@ function displayList(card) {
     let listview = document.querySelector("#listview");
     let listelt = document.createElement("tr");
     listelt.innerHTML= `<th>${card.bizname}</th>
-    <th>${card.street}</th>
-    <th>${card.phone}</th>
-    <th><a href="${card.websiteURL}"> ${card.websiteURL}</a></th>`;
+    <td>${card.street}</td>
+    <td>${card.phone}</td>
+    <td><a href="${card.websiteURL}"> ${card.bizname}</a></td>`;
     listview.appendChild(listelt);
+ }
+
+ function displaySmallList(card) {
+  let smallview = document.querySelector("#listSmallLimited");
+  let smallelt = document.createElement("div");
+  smallelt.innerHTML = `<p>{card.bizname}</p>  
+  <p>${card.street} ${card.citystatezip}</p>
+  <p>${card.phone}</p>
+  <p><a href="${card.websiteURL}">${card.bizname}</a></p>`;
+  cardview.appendChild(smallelt);
  }
 
 

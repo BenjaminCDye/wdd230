@@ -1,3 +1,83 @@
 .listview {
+  display: none;
+}
+
+.viewspace img {
+  height: 42px;
+}
+
+table {
+  border-collapse: collapse;
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#listview th,
+td {
+  width: 1fr;
+  border: 1px solid;
+  padding: 3px;
+}
+
+#cardview div {
+  border: 1px solid;
+  text-align: center;
+  width: 250px;
+  padding: 5px;
+}
+
+#businessheader {
+  text-align: center;
+}
+
+#cardview {
+  /* margin-left: 13%; */
+  max-width: 800px;
+  min-width: 200px;
+  margin: 0 auto;
+}
+
+#listSmallLimited {
+  display: none;
+}
+
+@media screen and (min-width: 300px) {
+  #cardview {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    margin-left: 15%;
+    max-width: 800px;
+    min-width: 200px;
+  }
+
+  #listSmallLimited {
+    display: block;
+  }
+
+  #listview {
     display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #listSmallLimited {
+    display: none;
+  }
+  #cardview {
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
+    min-width: 200px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  #cardview {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 800px;
+    min-width: 200px;
+    margin: 0 auto;
+  }
 }
