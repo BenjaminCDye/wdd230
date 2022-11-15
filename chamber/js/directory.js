@@ -23,7 +23,7 @@ listselector.addEventListener("click", ()=>{
 function displayCards(card) {
  let cardview = document.querySelector("#cardview");
  let cardelt = document.createElement("div");
- cardelt.innerHTML = `<img src="${card.imageURL} alt="business logo" />
+ cardelt.innerHTML = `<img src="${card.imageURL}" alt="business logo" />
  <p>${card.street} ${card.citystatezip}</p>
  <p>${card.phone}</p>
  <p><a href="${card.websiteURL}">${card.bizname}</a></p>`;
