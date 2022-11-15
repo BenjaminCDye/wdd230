@@ -2,6 +2,10 @@
   display: none;
 }
 
+#listselector {
+  opacity: .5;
+}
+
 .viewspace img {
   height: 42px;
 }
