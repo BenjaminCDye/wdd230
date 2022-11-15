@@ -34,7 +34,7 @@ function displayList(card) {
     let listview = document.querySelector("#listview");
     let listelt = document.createElement("tr");
     listelt.innerHTML= `<th>${card.bizname}</th>
-    <td>${card.street}</td>
+    <td>${card.street} ${card.citystatezip}</td>
     <td>${card.phone}</td>
     <td><a href="${card.websiteURL}"> ${card.bizname}</a></td>`;
     listview.appendChild(listelt);
