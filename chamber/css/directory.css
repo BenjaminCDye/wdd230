@@ -19,7 +19,7 @@ table {
 
 #listview th,
 td {
-  width: 1fr;
+  /* width: 1fr; */
   border: 1px solid;
   padding: 3px;
 }
