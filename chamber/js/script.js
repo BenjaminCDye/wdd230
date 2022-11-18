@@ -27,21 +27,44 @@ if (today.getDay() == 1 || today.getDay() == 2) {
   pthing.style.fontSize = "20pt";
 }
 
+const LAT = "43.826";
+const LON = "-111.7897";
+const APIKEY = "3e1d2572a2792931a2b0cd1b553da348";
+const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${LAT}&lon=${LON}&appid=${APIKEY}&units=imperial`;
 
-function setwindchill(temp,windspeed){
+function showWeather(obj) {
 
   let windSpeedobj = document.querySelector("#windSpeed");
-  let tempobj = document.querySelector("#temperature");
+  let currenttemp = document.querySelector("#current-temp");
+  let weathericon = document.querySelector("#weathericon");
+  let weatherdesc = document.querySelector("#weatherdesc");
   let windChillobj = document.querySelector("#windChill");
+  const iconURL = `http://openweathermap.org/img/wn/${obj.weather[0].icon}@2x.png`;
 
   let windchill = "N/A";
 
-   if (temp <= 50 && windSpeed > 3) {
-    let chill = Math.round((35.74 + (0.6215 * temp))-(35.75 * Math.pow(windspeed,0.16)) + (0.4275*temp*Math.pow(windspeed,0.16)));
-    windchillmsg = `$(chill)&deg; F`;
-   }
+  if (currenttemp <= 50 && windSpeedobj > 3) {
+    let chill = Math.round(
+      35.74 +
+        0.6215 * currenttemp -
+        35.75 * Math.pow(windSpeedobj, 0.16) +
+        0.4275 * currenttemp * Math.pow(windSpeedobj, 0.16)
+    );
+    windchillmsg.textContent = `${chill}&deg; F`;
+  }
 
-  tempobj.textContent = temp;
-  windSpeedobj.textContent = windspeed;
-  windChillobj.innerHTML = windchillmsg;
+  
+  windSpeedobj.textContent = obj.weather[0].wind_speed;
+  windChillobj.textContent = obj.weather[0];
+  currenttemp.textContent = obj.main.temp;
+  
+  weathericon.setAttribute("src", iconURL);
+  weathericon.setAttribute("alt", obj.weather[0].description);
+  weatherdesc.textContent = obj.weather[0].main;
 }
+fetch(apiURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    console.log(jsObject);
+    showWeather(jsObject);
+  });
