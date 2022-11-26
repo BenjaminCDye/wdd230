@@ -8,6 +8,37 @@
   margin-left: 5%;
 }
 
+.sideBySide {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#formbox {
+  margin-left: 20%;
+}
+
+.bigtext {
+  font-size: 30px;
+  text-align: center;
+}
+
+#directorContainer {
+  display: grid;
+  grid-template-columns: 35% 35%;
+}
+
+#directorContainer img {
+  max-height: 250px; 
+  min-height: 100px;
+  border: 4px grey ridge;
+}
+
+.dir-card {
+  width: 40%;
+  padding: 20px;
+  
+}
+
 #mainContent a:hover {
   color: red;
   background-color: grey;
