@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Inter+Tight:wght@100;200&family=Lobster&family=Solway:wght@300;500&display=swap');
+
+.font-1 {
+    font-family: 'Crimson Text', serif;
+}
+
+.font-2 {
+    font-family: 'Inter Tight', sans-serif;
+}
+.font-3 {
+    font-family: 'Lobster', cursive;
+}
+.font-4 {
+    font-family: 'Solway', serif;
+}
+
+.color-sample {
+    width: 100px;
+    height: 100px;
+}
+
+.color-1 {
+    background-color: #5EB2DB;
+    /* color: #5EB2DB; */
+}
+.color-2 {
+    background-color: #325F75;
+    /* color: #325F75; */
+}
+
+.color-4 {
+    background-color: #4E93B5;
+    /* color: #4E93B5; */
+}
+.color-5 {
+    background-color: #69C7F5;
+    /* color: #69C7F5; */
+}
+.color-6 {
+    background-color: #172B36;
+    /* color: #172B36; */
+}
