@@ -1,0 +1,64 @@
+{
+    "temples": [
+        {
+          "imageURL": "images/billings_montana_temple.webp",
+          "address": "3100 Rim Point Dr Billings MT 59106-1386 United States",
+          "email": "",
+          "phone": "(1) 406-655-0607",
+          "websiteURL": "https://www.churchofjesuschrist.org/temples/details/billings-montana-temple?lang=eng",
+          "templename": "Billings Montana Temple",
+          "services" : "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+          "history" : "",
+          "dedication" : "20 November 1999",
+          "ordinance" : "Tuesday 10AM - 5PM, Wednesday 10AM - 5PM, Thursday 10AM - 5PM, Friday 10AM - 5PM, Saturday 9AM - 4PM, Sunday Closed, Monday Closed",
+          "session" : "",
+          "closure" : "Friday, 23 December 2022 - Saturday, 24 December 2022 Saturday, 31 December 2022"
+        } ,
+        {
+            "imageURL": "images/seoul_korea_temple_lds.webp",
+            "address": "Sinchon-ro 7 GIL 21 Seodaemun-gu, Seoul Seoul-teukbyeolsi 03783, South Korea",
+            "email": "",
+            "phone": "(82) 2-330-2700",
+            "websiteURL": "https://www.churchofjesuschrist.org/temples/details/seoul-korea-temple?lang=eng",
+             "templename": "Seoul Korea Temple",
+             "services" : "Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+             "history" : "",
+             "dedication" : "14 December 1985",
+             "ordinance" : "Tuesday 10AM - 9PM, Wednesday 10AM - 9PM, Thursday 10AM - 9PM, Friday 10AM - 9PM, Saturday 6AM - 4PM, Sunday Closed, Monday Closed",
+              "session" : "",
+              "closure" : "Sunday, 25 December 2022"
+          },
+          {
+            "imageURL": "images/boise_idaho_temple_sunshine.webp",
+            "address": "1211 S Cole Rd Boise ID 83709-1871 United States",
+            "email": "",
+            "phone": "(1) 208-322-4422",
+            "websiteURL": "https://www.churchofjesuschrist.org/temples/details/boise-idaho-temple?lang=eng",
+             "templename": "Boise Idaho Temple",
+             "services" : "No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+             "dedication" : "25 May 1984",
+             "history" : "",
+             "ordinance" : "Tuesday 5:15AM - 8PM, Wednesday 6AM - 8PM, Thursday 5:30AM - 8PM, Friday 6AM - 8PM, Saturday 6AM - 8PM, Sunday Closed, Monday Closed",
+              "session" : "",
+              "closure" : "Saturday, 24 December 2022, Saturday, 31 December 2022 (Limited Operations)"
+          },
+          {
+            "imageURL": "images/cardston_alberta_temple_lds.webp",
+            "address": "348 3rd St W Cardston AB T0K 0K0 Canada",
+            "email": "",
+            "phone": "(1) 403-653-3552",
+            "websiteURL": "https://www.churchofjesuschrist.org/temples/details/cardston-alberta-temple?lang=eng",
+             "templename": "Cardston Alberta Temple",
+             "services" : "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+             "history" : "",
+             "dedication" : "26 August 1923",
+             "ordinance" : "Tuesday 9AM - 9PM, Wednesday 9AM - 9PM, Thursday 9AM - 9PM, Friday 9AM - 9PM, Saturday 7AM - 3:30PM, Sunday Closed, Monday Closed",
+              "session" : "",
+              "closure" : "Saturday, 24 December 2022 - Tuesday, 27 December 2022, Saturday, 31 December 2022"
+          }
+    ]
+}
+
+
+
+

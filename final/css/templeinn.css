@@ -8,6 +8,14 @@
   color: black;
 }
 
+#cardview img {
+    height: 150px;
+}
+
+.center {
+    text-align: center;
+}
+
 .call2action {
   background-color: #325f75;
   border-radius: 10px;
@@ -97,6 +105,19 @@ a:active {
   .hide {
     display: none;
   }
+  #cardview {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 18px;
+    width: 90%;
+    justify-self: center;
+    /* align-self: center; */
+    /* align-items: center; */
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 5%;
+  }
 }
 @media screen and (min-width: 600px) {
   #content {
@@ -115,8 +136,12 @@ a:active {
   .hide {
     display: none;
   }
+  #cardview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 980px) {
   .topnav {
     display: none;
   }
@@ -135,6 +160,10 @@ a:active {
   #summery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  #cardview {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
@@ -156,8 +185,6 @@ a:active {
   border: black 1px solid;
   background-color: #4e93b5;
 }
-
-
 
 #top-head {
   display: grid;
