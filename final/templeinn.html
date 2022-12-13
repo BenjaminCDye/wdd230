@@ -1,22 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/templeinn.css" />
     <title>Temple Inn & Suites - Home</title>
-</head>
-<body>
-    <header>
-        <h1>Temple Inn & Suites</h1>
-        <a href="templeinn.html"><img src="#" alt="Temple Inn Logo"></a>
-        <nav>
-            <a class="current-page" href="templeinn.html">Home</a>
-            <a href="temples.html">Temples</a>
-            <a href="reservation.html">Reservation</a>
-            <a href="service.html">Services</a>
+    <script src="js/index.js"></script>
+  </head>
+  <body class="color-1">
+    <header class="color-2">
+
+      <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+      <div class="big-view">
+        <div id="top-head">
+          <a href="templeinn.html" class="active"
+            ><h1>Temple Inn & Suites - Home</h1></a
+          >
+          <a href="templeinn.html"
+            ><img
+              class="logo-img"
+              src="images/temp-blue.webp"
+              alt="Temple Inn Logo"
+          /></a>
+        </div>
+
+        <nav class="color-4">
+          <a class="current-page" href="templeinn.html">Home</a>
+          <a href="temple.html">Temples</a>
+          <a href="reserve.html">Reservation</a>
+          <a href="service.html">Services</a>
+          <a href="#contact">Contact</a>
         </nav>
+      </div>
+      <!-- Top Navigation Menu -->
+      <div class="topnav">
+        <div id="top-head">
+          <a href="templeinn.html" class="active"
+            ><h1>Temple Inn & Suites - Home</h1></a
+          >
+          <a href="templeinn.html"
+            ><img
+              class="logo-img"
+              src="images/temp-blue.webp"
+              alt="Temple Inn Logo"
+          /></a>
+        </div>
+
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a class="current-page" href="templeinn.html">Home</a>
+          <a href="temple.html">Temples</a>
+          <a href="reserve.html">Reservation</a>
+          <a href="service.html">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     </header>
-    
-</body>
+    <main>
+      <div id="content">
+        <div id="summery">
+          <div>
+            <h2>About Us</h2>
+
+            <p>
+             <b>Temple Inn & Suites</b> is a hotel chain headquartered in Bethesda, MD
+              that builds and manages specialized hotel accommodations near temple
+              locations of The Church of Jesus Christ of Latter-day Saints around
+              the world.
+            </p>
+            <p>
+              Some of the events that can be done are as follows: sealings,
+              weddings, receptions, and youth trips.
+            </p>
+            <div id="reserve">
+              <a href="reserve.html" class="call2action"
+                >Make A Reservation Now!</a>
+            </div>
+          </div>
+          <div>
+            
+          <h2>Temple Facts</h2>
+          <img
+            class="small-img"
+            src="images/salt_lake_temple_lds.webp"
+            alt="Salt Lake City Temple"
+          />
+          <p>
+            The Salt Lake Temple was the fourth temple built in Utah (though its
+            construction was started first) and the first built in the Salt Lake
+            Valley. The Salt Lake Temple was the only temple dedicated by
+            President Wilford Woodruff. With its distinctive spires and statue
+            of the angel Moroni, the Salt Lake Temple is an international symbol
+            of the Church.
+          </p>
+          <p class="hide">
+            The Salt Lake Temple is the largest temple (most square footage) of
+            the Church. The building of the Salt Lake Temple was seen as a
+            fulfillment of the prophet Isaiah's prophecy: "And it shall come to
+            pass in the last days, that the mountain of the Lord’s house shall
+            be established in the top of the mountains, and shall be exalted
+            above the hills; and all nations shall flow unto it" (Isaiah 2:2).
+            Brigham Young said of the Salt Lake Temple: "I want to see the
+            temple built in a manner that it will endure through the
+            Millennium."
+          </p>
+          <a href="temple.html" class="call2action"
+              >See more temples</a>
+        </div>
+
+        <div id="weather">
+          <h2>Weather</h2>
+          <p>Weather Card Pending</p>
+        </div>
+          </div>
+          <!-- Hero Image -->        
+     
+        
+      </div>
+    </main>
+    <footer class="color-2" id="contact">
+      <a href="templeinn.html"
+            ><img
+              class="logo-img"
+              src="images/temp-blue.webp"
+              alt="Temple Inn Logo"
+          /></a>
+          <p>#### W #### N</p>
+     <p>Bethesda, MD</p> 
+     <p>(009) - 900 - 9900</p>
+     <p>notafake.email@email.com</p>
+
+     <div class="social">
+      <a target="_blank" href="https://twitter.com/"><img src="images/2021 Twitter logo - blue.png" alt="Twitter"></a>
+      <a target="_blank" href="https://www.facebook.com/"><img src="images/f_logo_RGB-Blue_58.png" alt="Facebook"></a>
+      
+     </div>
+    </footer>
+  </body>
 </html>
