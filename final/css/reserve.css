@@ -1,0 +1,55 @@
+label.myinput {
+    display: block;
+    padding-top: .8rem;
+    
+}
+
+label.myinput input, label.myinput textarea {
+    display: block;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    width: auto;
+    max-width: 20rem;
+    margin-left: .5rem;
+}
+
+label.myradio {
+    display: block;
+}
+
+label.myradio input {
+    margin-right: .5rem;
+    font-size: 1.3rem;
+}
+
+.mysubmit {
+    background-color: blueviolet;
+    color: white;
+    margin: 1rem 0 0 0;
+    padding: .8rem;
+    font-size: 1.5rem;
+    border-radius: 25px;
+}
+
+label.myinput input:required {
+    border-color: red;
+}
+
+.margin_content {
+    margin-left: 10px;
+}
+
+#confirmation_message {
+    font-size: 30px;
+    background-color: green;
+    width: 20%;
+    margin: 15px auto;
+    text-align: center;
+    padding: 5px;
+}
+
+.form_box {
+    width: 90%;
+    margin-left: 5%;
+}
+

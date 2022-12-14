@@ -7,3 +7,11 @@ function myFunction() {
       x.style.display = "block";
     }
   }
+
+
+
+
+  const today = new Date();
+// const makes things faster and easier for memory, use whenever possible.
+document.getElementById("dateDiv").textContent = today.getFullYear();
+document.getElementById("lastUpdateDate").textContent = document.lastModified;

@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/templeinn.css" />
-    <title>Temple Inn & Suites - Home</title>
+    <title>Temple Inn & Suites - Reservation</title>
     <script src="js/index.js"></script>
+    <script src="js/serve.js"></script>
   </head>
   <body class="color-1">
     <header class="color-2">
@@ -19,7 +20,7 @@
       <div class="big-view">
         <div id="top-head">
           <a href="templeinn.html" class="active"
-            ><h1>Temple Inn & Suites - Home</h1></a
+            ><h1>Temple Inn & Suites - Services</h1></a
           >
           <a href="templeinn.html"
             ><img
@@ -30,10 +31,10 @@
         </div>
 
         <nav class="color-4">
-          <a class="current-page" href="templeinn.html">Home</a>
+          <a href="templeinn.html">Home</a>
           <a href="temple.html">Temples</a>
           <a href="reserve.html">Reservation</a>
-          <a href="service.html">Services</a>
+          <a class="current-page" href="service.html">Services</a>
           <!-- <a href="#contact">Contact</a> -->
         </nav>
       </div>
@@ -41,7 +42,7 @@
       <div class="topnav">
         <div id="top-head">
           <a href="templeinn.html" class="active"
-            ><h1>Temple Inn & Suites - Home</h1></a
+            ><h1>Temple Inn & Suites - Services</h1></a
           >
           <a href="templeinn.html"
             ><img
@@ -53,10 +54,10 @@
 
         <!-- Navigation links (hidden by default) -->
         <div id="myLinks">
-          <a class="current-page" href="templeinn.html">Home</a>
+          <a href="templeinn.html">Home</a>
           <a href="temple.html">Temples</a>
           <a href="reserve.html">Reservation</a>
-          <a href="service.html">Services</a>
+          <a class="current-page" href="service.html">Services</a>
           <!-- <a href="#contact">Contact</a> -->
         </div>
         <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
@@ -66,63 +67,34 @@
       </div>
     </header>
     <main>
-      <div id="content">
-        <div id="summery">
-          <div>
-            <h2>About Us</h2>
-
-            <p>
-              <b>Temple Inn & Suites</b> is a hotel chain headquartered in
-              Bethesda, MD that builds and manages specialized hotel
-              accommodations near temple locations of The Church of Jesus Christ
-              of Latter-day Saints around the world.
-            </p>
-            <p>
-              Some of the events that can be done are as follows: sealings,
-              weddings, receptions, and youth trips.
-            </p>
-            <div id="reserve">
-              <a href="reserve.html" class="call2action"
-                >Make A Reservation Now!</a
-              >
+        <div class="center">
+            <h2>What are you here for?</h2>
+            <button id="receptionselector" class="call2action">
+              <a href="reception.html">Reception</a>
+            </button>
+            <button id="missionaryselector" class="call2action">
+              <a href="missionary.html">Full-time Temple Missionary</a>
+            </button>
+          </div>
+          <div class="container">
+            <div>
+                <h3>Specialized Services</h3>
+                <ul>
+                  <li>
+                    Free access to changing rooms and bathroom facilities for temple
+                    patrons who have traveled far and need to change to and from
+                    church clothes
+                  </li>
+                  <li>A playroom and low-cost, short-term babysitting services for the children of patrons</li>
+                  <li>Long-term stay accommodations in kitchenette suites for full-time temple missionaries</li>
+                  <li>A family search center that supports family search and ordinance work</li>
+                </ul>
             </div>
+           <img class="small-img smallhide" src="images/history.webp" alt="family history">
           </div>
-          <div>
-            <h2>Temple Facts</h2>
-            <img
-              class="small-img"
-              src="images/salt_lake_temple_lds.webp"
-              alt="Salt Lake City Temple"
-            />
-            <p>
-              The Salt Lake Temple was the fourth temple built in Utah (though
-              its construction was started first) and the first built in the
-              Salt Lake Valley. The Salt Lake Temple was the only temple
-              dedicated by President Wilford Woodruff. With its distinctive
-              spires and statue of the angel Moroni, the Salt Lake Temple is an
-              international symbol of the Church.
-            </p>
-            <p class="hide">
-              The Salt Lake Temple is the largest temple (most square footage)
-              of the Church. The building of the Salt Lake Temple was seen as a
-              fulfillment of the prophet Isaiah's prophecy: "And it shall come
-              to pass in the last days, that the mountain of the Lord’s house
-              shall be established in the top of the mountains, and shall be
-              exalted above the hills; and all nations shall flow unto it"
-              (Isaiah 2:2). Brigham Young said of the Salt Lake Temple: "I want
-              to see the temple built in a manner that it will endure through
-              the Millennium."
-            </p>
-            <a href="temple.html" class="call2action">See more temples</a>
-          </div>
-
-          <div id="weather">
-            <h2>Weather</h2>
-            <p>Weather Card Pending</p>
-          </div>
-        </div>
-        <!-- Hero Image -->
-      </div>
+       
+    
+      
     </main>
     <footer class="color-2" id="contact">
       <a href="templeinn.html"

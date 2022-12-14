@@ -9,11 +9,27 @@
 }
 
 #cardview img {
-    height: 150px;
+  height: 150px;
+}
+
+.container {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+
+#receptionselector {
+    color: white;
+    background-color: #4e93b5;
+}
+#missionaryselector {
+    color: white;
+    background-color: #4e93b5;
+
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .call2action {
@@ -118,6 +134,22 @@ a:active {
     justify-items: center;
     margin-left: 5%;
   }
+  #reservegrid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .smallhide {
+    display: none;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 15px;
+  }
 }
 @media screen and (min-width: 600px) {
   #content {
@@ -137,6 +169,24 @@ a:active {
     display: none;
   }
   #cardview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #reservegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .smallhide {
+    display: block;
+  }
+  .bighide {
+    display: none;
+  }
+  .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -164,6 +214,9 @@ a:active {
   #cardview {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  footer {
+    padding: 15px;
   }
 }
 
@@ -244,7 +297,17 @@ header {
 }
 footer {
   color: white;
-  margin-top: 15px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* height: 200px; ; */
+}
+
+main {
+  margin-bottom: 200px;
 }
 
 nav a {
